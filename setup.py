@@ -31,7 +31,7 @@ setup(
         "Topic :: System :: Archiving :: Backup",
     ],
     entry_points={
-        "console_scripts": ["runrestic = runrestic.runrestic.runrestic:main"]
+        "console_scripts": ["runrestic = runrestic.runrestic.runrestic:runrestic"]
     },
     packages=[
         "runrestic",
